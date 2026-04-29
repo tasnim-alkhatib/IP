@@ -44,13 +44,14 @@
             // 
             // button1
             // 
+            button1.BackColor = Color.FromArgb(192, 192, 255);
             button1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(33, 64);
             button1.Name = "button1";
             button1.Size = new Size(259, 46);
             button1.TabIndex = 2;
             button1.Text = "Upload Image";
-            button1.UseVisualStyleBackColor = true;
+            button1.UseVisualStyleBackColor = false;
             button1.Click += button1_Click_1;
             // 
             // label1
@@ -78,17 +79,19 @@
             // 
             // button2
             // 
+            button2.BackColor = Color.FromArgb(192, 192, 255);
             button2.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.Location = new Point(528, 207);
             button2.Name = "button2";
             button2.Size = new Size(211, 46);
             button2.TabIndex = 5;
             button2.Text = "Apply";
-            button2.UseVisualStyleBackColor = true;
+            button2.UseVisualStyleBackColor = false;
             button2.Click += button2_Click;
             // 
             // pictureBox1
             // 
+            pictureBox1.BackColor = SystemColors.ButtonHighlight;
             pictureBox1.Location = new Point(68, 387);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(888, 658);
@@ -97,6 +100,7 @@
             // 
             // pictureBox2
             // 
+            pictureBox2.BackColor = SystemColors.ButtonHighlight;
             pictureBox2.Location = new Point(1170, 387);
             pictureBox2.Name = "pictureBox2";
             pictureBox2.Size = new Size(862, 658);
