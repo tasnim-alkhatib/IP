@@ -48,7 +48,7 @@
             button1.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button1.Location = new Point(33, 64);
             button1.Name = "button1";
-            button1.Size = new Size(259, 46);
+            button1.Size = new Size(259, 55);
             button1.TabIndex = 2;
             button1.Text = "Upload Image";
             button1.UseVisualStyleBackColor = false;
@@ -83,7 +83,7 @@
             button2.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
             button2.Location = new Point(528, 207);
             button2.Name = "button2";
-            button2.Size = new Size(211, 46);
+            button2.Size = new Size(211, 55);
             button2.TabIndex = 5;
             button2.Text = "Apply";
             button2.UseVisualStyleBackColor = false;
@@ -111,20 +111,20 @@
             // label2
             // 
             label2.AutoSize = true;
-            label2.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
+            label2.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
             label2.Location = new Point(412, 335);
             label2.Name = "label2";
-            label2.Size = new Size(199, 38);
+            label2.Size = new Size(212, 38);
             label2.TabIndex = 8;
             label2.Text = "Original Image";
             // 
             // label3
             // 
             label3.AutoSize = true;
-            label3.Font = new Font("Segoe UI", 14F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            label3.Location = new Point(1446, 335);
+            label3.Font = new Font("Segoe UI", 14F, FontStyle.Bold, GraphicsUnit.Point, 0);
+            label3.Location = new Point(1468, 335);
             label3.Name = "label3";
-            label3.Size = new Size(226, 38);
+            label3.Size = new Size(236, 38);
             label3.TabIndex = 9;
             label3.Text = "Processed Image";
             // 
@@ -152,6 +152,7 @@
             Controls.Add(pictureBox2);
             Controls.Add(pictureBox1);
             Name = "Form1";
+            StartPosition = FormStartPosition.CenterScreen;
             Text = "Form1";
             Load += Form1_Load;
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
